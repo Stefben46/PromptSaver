@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "PromptSaver",
+  "version": "1.0",
+  "description": "Easily store your prompts or any desired data with just a click from the extension popup",
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "64": "icon64.png",
+    "128": "icon128.png"
+  },
+
+  "action": {
+    "default_title": "PromptSaver",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "64": "icon64.png",
+      "128": "icon128.png"
+    },
+    "default_popup": "popup.html"
+  }
+}

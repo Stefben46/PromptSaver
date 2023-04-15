@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div id="title-bar" class="title-bar">
+      <h1 class="toptitle">PromptSaver</h1>
+      <input id="search-bar" type="text" placeholder=" Search" style="margin-right: 0px; width: 120px;">
+    </div>
+    <div class="background">
+      <button id="new-message-button" class="New">New Save</button>
+    <form id="new-message-form" style="display: none">
+      <div class="message-box">
+        <div style="display: block;" class="input-text">
+          <label for="title" class="text" style="margin-left:20px;">Title</label>
+          <input type="text" id="title" name="title" required>
+        </div>
+        <div style="display: block;" class="input-text">
+          <label for="message" class="text">Prompt</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+      </div>
+      <button type="submit" class="save">Save</button>
+    </form>
+    <div id="messages"></div>
+  </div>
+  </body>
+</html>
